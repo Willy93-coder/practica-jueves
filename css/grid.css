@@ -70,21 +70,16 @@ header, main, footer{
 /* **************************************************************** */
 
 /* @FOOTER */
-.footer__contenido{
-    grid-column: 1/span-1;
-    display: grid;
-    grid-template-columns:0px repeat(4, 1fr) 0px;
-    grid-column-gap: 16px;
+.footer__contactar, .footer__redes{
+    grid-column: 1/span 3;
 }
 
-h4{
+.footer__direccion, .footer__redes-sociales{
     grid-column: 2/span 4;
 }
 
-ul{
-    grid-column: 3/span 2;
+.footer__copyright{
+    grid-column: 2/span 4;
 }
 
-h5{
-    grid-column: 3/span 2;
-}
+/* **************************************************************** */

@@ -6,8 +6,26 @@
     --colorOrange: #FFCB13;
     --colorWhite: #F5F5F5;
 }
+/* @HEADER */
+/* BTN */
+.header__telefono{
+    background-color: var(--colorOrange);
+}
 
+/* **************************************************************** */
+
+/* @MAIN */
+/* BTN */
+.input__btn{
+    background-color: var(--colorOrange);
+}
+
+/* **************************************************************** */
+
+/* @FOOTER */
 footer{
     background-color: var(--colorBlack);
     color: var(--colorWhite);
 }
+
+/* **************************************************************** */

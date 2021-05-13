@@ -6,3 +6,36 @@ body{
     justify-content: center;
 }
 
+/* @HEADER */
+/* BTN */
+.header__telefono{
+    border: 2px solid black;
+    padding: 20px 10px;
+}
+
+.header__banner{
+    margin-bottom: 1rem;
+}
+/* **************************************************************** */
+
+/* @FORMULARIO */
+.main__formulario{
+    height: 110px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__email{
+    height: 50px;
+    width: 100%;
+}
+
+.input__btn{
+    height: 50px;
+    width: 150px;
+}
+/* **************************************************************** */
+

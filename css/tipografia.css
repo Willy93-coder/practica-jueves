@@ -4,3 +4,56 @@
 @font-face {
     
 }
+
+/* TAMAÑOS DE LETRA */
+/* GENERAL */
+body{
+    font-size: 16px;
+}
+
+/* **************************************************************** */
+
+/* @HEADER */
+.header__titulo{
+    font-size: 2.25rem;
+}
+
+.header__telefono{
+    font-size: 1.125rem;
+}
+
+/* **************************************************************** */
+
+/* @MAIN */
+.main__subtitulo{
+    font-size: 1.125rem;
+}
+
+.main__descripcion__anio{
+    font-size: 1.125rem;
+}
+
+.main__descripcion__explicacion{
+    font-size: 1rem;
+}
+
+.main__contacto{
+    font-size: 1.125rem;
+}
+
+/* **************************************************************** */
+
+/* FOOTER */
+.footer__contactar, .footer__redes{
+    font-size: 1.125rem;
+}
+
+.footer__direccion, .footer__redes-sociales{
+    font-size: 1rem;
+}
+
+.footer__copyright{
+    font-size: 1rem;
+}
+
+/* **************************************************************** */
