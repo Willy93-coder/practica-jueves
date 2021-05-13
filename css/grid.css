@@ -1,2 +1,95 @@
 /* CSS GRID */
 /* **************************************************************** */
+
+/* GRID mobile */
+.contenido{
+    display: grid;
+    grid-template-columns:0px repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+header,main{
+    grid-column: 2/span 4;
+}
+
+footer{
+    grid-column: 1/span-1;
+}
+
+
+/* **************************************************************** */
+
+/* SUBGRIDS mobile */
+/* General */
+header, main, footer{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-column-gap: 16px;
+    place-items: center;
+}
+
+/* @HEADER */
+.header__titulo{
+    grid-column: 2/span 2;
+}
+
+.header__banner{
+    grid-column: 1/span-1;
+}
+
+.header__telefono{
+    grid-column: 2/span 2; 
+}
+
+/* **************************************************************** */
+
+/* @MAIN */
+
+.main__subtitulo{
+    grid-column: 2/span 2;
+}
+
+.main__descripcion{
+    grid-column: 1/span 4;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-column-gap: 16px;
+}
+
+.main__descripcion__anio{
+    grid-column: 1/span 4;
+}
+
+.main__descripcion__explicacion{
+    grid-column: 2/span 3;
+}
+
+.main__contacto{
+    grid-column: 1/span 4;
+}
+
+.main__formulario{
+    grid-column: 2/span 4;
+}
+
+/* **************************************************************** */
+
+/* @FOOTER */
+.footer__contenido{
+    grid-column: 1/span 4;
+    display: grid;
+    grid-template-columns:0px repeat(4, 1fr);
+    grid-column-gap: 16px;
+}
+
+h4{
+    grid-column: 2/span 4;
+}
+
+ul{
+    grid-column: 3/span 2;
+}
+
+h5{
+    grid-column: 3/span 2;
+}
