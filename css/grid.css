@@ -8,14 +8,9 @@
     grid-gap: 16px;
 }
 
-header,main{
-    grid-column: 2/span 4;
-}
-
-footer{
+header,main, footer{
     grid-column: 1/span-1;
 }
-
 
 /* **************************************************************** */
 
@@ -23,14 +18,14 @@ footer{
 /* General */
 header, main, footer{
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:0px repeat(4, 1fr) 0px;
     grid-column-gap: 16px;
     place-items: center;
 }
 
 /* @HEADER */
 .header__titulo{
-    grid-column: 2/span 2;
+    grid-column: 3/span 2;
 }
 
 .header__banner{
@@ -38,7 +33,7 @@ header, main, footer{
 }
 
 .header__telefono{
-    grid-column: 2/span 2; 
+    grid-column: 3/span 2; 
 }
 
 /* **************************************************************** */
@@ -46,11 +41,11 @@ header, main, footer{
 /* @MAIN */
 
 .main__subtitulo{
-    grid-column: 2/span 2;
+    grid-column: 3/span 2;
 }
 
 .main__descripcion{
-    grid-column: 1/span 4;
+    grid-column: 2/span 4;
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-column-gap: 16px;
@@ -65,20 +60,20 @@ header, main, footer{
 }
 
 .main__contacto{
-    grid-column: 1/span 4;
+    grid-column: 1/span-1;
 }
 
 .main__formulario{
-    grid-column: 2/span 4;
+    grid-column: 1/span-1;
 }
 
 /* **************************************************************** */
 
 /* @FOOTER */
 .footer__contenido{
-    grid-column: 1/span 4;
+    grid-column: 1/span-1;
     display: grid;
-    grid-template-columns:0px repeat(4, 1fr);
+    grid-template-columns:0px repeat(4, 1fr) 0px;
     grid-column-gap: 16px;
 }
 
